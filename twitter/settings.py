@@ -118,15 +118,17 @@ INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'main',
+    'registration',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
 )
+
 ACCOUNT_ACTIVATION_DAYS = 7
-EMAIL_HOST = 'smtp.hotmail.com'
-EMAIL_HOST_USER = 'adriangarciaalcantar@hotmail.com'
-EMAIL_HOST_PASSWORD = 'toby123'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'pooiiuytaf6978@gmail.com'
+EMAIL_HOST_PASSWORD = 'admin123456'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 # A sample logging configuration. The only tangible logging
